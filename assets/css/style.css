@@ -23,6 +23,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
     background: #fff;
+    overflow-x: hidden;
 }
 
 /* Common */
@@ -649,7 +650,7 @@ select {
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    width: 48.7%;
+    width: 48.69%;
 }
 
 .review-item__quote-wrap {
