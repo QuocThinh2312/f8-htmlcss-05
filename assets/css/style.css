@@ -884,10 +884,6 @@ select {
     gap: 16px;
 }
 
-.download__img:hover {
-    cursor: pointer;
-}
-
 .download__img-decor {
     position: absolute;
 }

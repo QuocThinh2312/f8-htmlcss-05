@@ -181,6 +181,7 @@
                                 placeholder="Your email address"
                                 autocomplete="off"
                                 class="subscribe-form__input"
+                                required
                             />
                             <button
                                 type="submit"
@@ -854,16 +855,20 @@
                             a special online bank and move faster
                         </p>
                         <div class="download__row">
-                            <img
-                                src="./assets/img/download-img-01.png"
-                                alt=""
-                                class="download__img"
-                            />
-                            <img
-                                src="./assets/img/download-img-02.png"
-                                alt=""
-                                class="download__img"
-                            />
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/download-img-01.png"
+                                    alt=""
+                                    class="download__img"
+                                />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/download-img-02.png"
+                                    alt=""
+                                    class="download__img"
+                                />
+                            </a>
                         </div>
                         <div class="download__decor">
                             <img
@@ -950,6 +955,8 @@
                             St # Ste B22, Charlottesville, CA 45565
                         </p>
                         <h3 class="footer__title">News letter</h3>
+
+                        <!-- Form -->
                         <form action="" autocomplete="off" class="footer-form">
                             <input
                                 type="email"
@@ -957,6 +964,7 @@
                                 id="email"
                                 placeholder="Email address..."
                                 class="footer-form__input"
+                                required
                             />
                             <button
                                 type="submit"
