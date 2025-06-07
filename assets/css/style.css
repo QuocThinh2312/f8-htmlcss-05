@@ -372,6 +372,7 @@ select {
 .work__card-01 {
     position: absolute;
     inset: auto auto 479px 344px;
+    border-radius: 8px;
     animation: pulse-2 2s infinite;
 }
 
