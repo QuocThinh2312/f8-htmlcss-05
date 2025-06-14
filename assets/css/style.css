@@ -916,7 +916,7 @@ select {
     background: linear-gradient(
         to top,
         var(--primary-color) 14.89%,
-        #fff 14.89%
+        #fafbff 14.89%
     );
 }
 
